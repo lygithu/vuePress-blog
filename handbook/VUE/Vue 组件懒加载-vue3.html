@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vue 组件懒加载-vue3 | VuePress Blog</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="基于VuePress搭建的个人博客">
+    
+    <link rel="preload" href="/vuePress-blog/assets/css/0.styles.1692b209.css" as="style"><link rel="preload" href="/vuePress-blog/assets/js/app.77a1e445.js" as="script"><link rel="preload" href="/vuePress-blog/assets/js/3.dfda982a.js" as="script"><link rel="preload" href="/vuePress-blog/assets/js/1.f474e8b5.js" as="script"><link rel="preload" href="/vuePress-blog/assets/js/17.ae6ef2d5.js" as="script"><link rel="prefetch" href="/vuePress-blog/assets/js/10.fb9d9a8b.js"><link rel="prefetch" href="/vuePress-blog/assets/js/11.9364c477.js"><link rel="prefetch" href="/vuePress-blog/assets/js/12.74b5076c.js"><link rel="prefetch" href="/vuePress-blog/assets/js/13.1d1ff3c6.js"><link rel="prefetch" href="/vuePress-blog/assets/js/14.4810b54e.js"><link rel="prefetch" href="/vuePress-blog/assets/js/15.50872fbc.js"><link rel="prefetch" href="/vuePress-blog/assets/js/16.4a3c42ba.js"><link rel="prefetch" href="/vuePress-blog/assets/js/18.926bc60c.js"><link rel="prefetch" href="/vuePress-blog/assets/js/19.d842f51c.js"><link rel="prefetch" href="/vuePress-blog/assets/js/4.df64d724.js"><link rel="prefetch" href="/vuePress-blog/assets/js/5.adf7d4ce.js"><link rel="prefetch" href="/vuePress-blog/assets/js/6.da83f4a7.js"><link rel="prefetch" href="/vuePress-blog/assets/js/7.9cfbc2da.js"><link rel="prefetch" href="/vuePress-blog/assets/js/8.81755cb9.js"><link rel="prefetch" href="/vuePress-blog/assets/js/9.e442da69.js">
+    <link rel="stylesheet" href="/vuePress-blog/assets/css/0.styles.1692b209.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>VuePress Blog</h3> <p class="description" data-v-59e6cb88>基于VuePress搭建的个人博客</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><!---->
+          
+        <!---->
+        2023
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vuePress-blog/" class="home-link router-link-active"><!----> <span class="site-name">VuePress Blog</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vuePress-blog/" class="nav-link"><i class="undefined"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      LY JavaScript 博客
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuePress-blog/handbook/VUE/www.baidu.com.html" class="nav-link"><i class="undefined"></i>
+  Github
+</a></li><li class="dropdown-item"><!----> <a href="/vuePress-blog/handbook/VUE/www.baidu.com.html" class="nav-link"><i class="undefined"></i>
+  掘金
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><!----> <!----> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>9</h3> <h6 data-v-1fad0c41>文章</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>0</h3> <h6 data-v-1fad0c41>标签</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/vuePress-blog/" class="nav-link"><i class="undefined"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      LY JavaScript 博客
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuePress-blog/handbook/VUE/www.baidu.com.html" class="nav-link"><i class="undefined"></i>
+  Github
+</a></li><li class="dropdown-item"><!----> <a href="/vuePress-blog/handbook/VUE/www.baidu.com.html" class="nav-link"><i class="undefined"></i>
+  掘金
+</a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/vuePress-blog/" class="sidebar-heading clickable router-link-active"><span>欢迎学习</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/vuePress-blog/" aria-current="page" class="sidebar-link">学前必读</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/vuePress-blog/handbook/JS/Introduce" class="sidebar-heading clickable"><span>JS学习</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/vuePress-blog/handbook/JS/Represents 26 letters.html" class="sidebar-link">JavaScript 花式表示 26 个字母</a></li><li><a href="/vuePress-blog/handbook/JS/ConditionalTypes.html" class="sidebar-link">条件类型</a></li><li><a href="/vuePress-blog/handbook/JS/Generics.html" class="sidebar-link">泛型</a></li><li><a href="/vuePress-blog/handbook/JS/Intersection Observer API.html" class="sidebar-link">Intersection Observer API</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/vuePress-blog/handbook/VUE/VueTitle" class="sidebar-heading clickable open"><span>VUE学习</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/vuePress-blog/handbook/VUE/VueTitle.html" class="sidebar-link">vue学习</a></li><li><a href="/vuePress-blog/handbook/VUE/ExportExcel.html" class="sidebar-link">vue 基于 Export2Excel.js 导出 Excel</a></li><li><a href="/vuePress-blog/handbook/VUE/Vue3利用hooks封装的图片懒加载.html" class="sidebar-link">Vue3利用hooks封装的图片懒加载</a></li><li><a href="/vuePress-blog/handbook/VUE/Vue 组件懒加载-vue3.html" class="active sidebar-link">Vue 组件懒加载-vue3</a></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>Vue 组件懒加载-vue3</h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><!---->
+          
+        <!---->
+        2023
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">Vue 组件懒加载-vue3</h1> <div data-v-8a445198><i class="iconfont reco-account" data-v-8a445198><span data-v-8a445198>LY</span></i> <i class="iconfont reco-date" data-v-8a445198><span data-v-8a445198>2023/5/4</span></i> <!----> <!----></div></div> <div class="theme-reco-content content__default"><p>使用 <strong>Intersection Observer API</strong> 在 Vue 组件可见时对其进行懒加载。</p> <h3 id="一-intersection-observer-api"><a href="#一-intersection-observer-api" class="header-anchor">#</a> 一.Intersection Observer API</h3> <p>Intersection Observer API 是一种功能强大的工具，它允许开发人员有效地跟踪和响应浏览器视口中元素可见性的变化。
+它提供了一种异步观察元素与其父元素之间或元素与视口之间交集的方法。它为检测元素何时可见或隐藏提供了性能优越的优化解决方案，减少了对低效滚动事件监听器的需求，使开发人员能够在必要时有选择地加载或操作内容，从而增强用户体验。
+它通常用于实现诸如无限滚动和图片懒加载等功能。</p> <h3 id="二-异步组件"><a href="#二-异步组件" class="header-anchor">#</a> 二.异步组件</h3> <p>Vue 3 提供了 <strong>defineAsyncComponent</strong>[2]，用于仅在需要时异步加载组件。
+它返回一个组件定义的 Promise：</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code>import { defineAsyncComponent } from 'vue'
+
+const AsyncComp = defineAsyncComponent(() =&gt; {
+  return new Promise((resolve, reject) =&gt; {
+    // ...load component from server
+    resolve(/<span class="token italic"><span class="token punctuation">*</span><span class="token content"> loaded component </span><span class="token punctuation">*</span></span>/)
+  })
+})
+</code></pre></div><p>还可以处理错误和加载状态：</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code>const AsyncComp = defineAsyncComponent({
+  // the loader function
+  loader: () =&gt; import('./Foo.vue'),
+
+  // A component to use while the async component is loading
+  loadingComponent: LoadingComponent,
+  // Delay before showing the loading component. Default: 200ms.
+  delay: 200,
+
+  // A component to use if the load fails
+  errorComponent: ErrorComponent,
+  // The error component will be displayed if a timeout is
+  // provided and exceeded. Default: Infinity.
+  timeout: 3000
+})
+</code></pre></div><p>当组件可见时，我们将使用该功能异步加载组件。</p> <h3 id="三-懒加载组件"><a href="#三-懒加载组件" class="header-anchor">#</a> 三.懒加载组件</h3> <p>现在，让我们结合 Intersection Observer API 和 <strong>defineAsyncComponent</strong> 函数，在组件可见时异步加载它们：</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code>import {
+  h,
+  defineAsyncComponent,
+  defineComponent,
+  ref,
+  onMounted,
+  AsyncComponentLoader,
+  Component,
+} from 'vue';
+
+type ComponentResolver = (component: Component) =&gt; void
+
+export const lazyLoadComponentIfVisible = ({
+  componentLoader,
+  loadingComponent,
+  errorComponent,
+  delay,
+  timeout
+}: {
+  componentLoader: AsyncComponentLoader;
+  loadingComponent: Component;
+  errorComponent?: Component;
+  delay?: number;
+  timeout?: number;
+}) =&gt; {
+  let resolveComponent: ComponentResolver;
+
+  return defineAsyncComponent({
+    // the loader function
+    loader: () =&gt; {
+      return new Promise((resolve) =&gt; {
+        // We assign the resolve function to a variable
+        // that we can call later inside the loadingComponent 
+        // when the component becomes visible
+        resolveComponent = resolve as ComponentResolver;
+      });
+    },
+    // A component to use while the async component is loading
+    loadingComponent: defineComponent({
+      setup() {
+        // We create a ref to the root element of 
+        // the loading component
+        const elRef = ref();
+
+<span class="token code keyword">        async function loadComponent() {
+            // `resolveComponent()` receives the
+            // the result of the dynamic `import()`
+            // that is returned from `componentLoader()`
+            const component = await componentLoader()
+            resolveComponent(component)
+        }</span>
+
+<span class="token code keyword">        onMounted(async() =&gt; {
+          // We immediately load the component if
+          // IntersectionObserver is not supported
+          if (!('IntersectionObserver' in window)) {
+            await loadComponent();
+            return;
+          }</span>
+
+<span class="token code keyword">          const observer = new IntersectionObserver((entries) =&gt; {
+            if (!entries[0].isIntersecting) {
+              return;
+            }</span>
+
+<span class="token code keyword">            // We cleanup the observer when the 
+            // component is not visible anymore
+            observer.unobserve(elRef.value);
+            await loadComponent();
+          });</span>
+
+<span class="token code keyword">          // We observe the root of the
+          // mounted loading component to detect
+          // when it becomes visible
+          observer.observe(elRef.value);
+        });</span>
+
+<span class="token code keyword">        return () =&gt; {
+          return h('div', { ref: elRef }, loadingComponent);
+        };
+      },
+    }),
+    // Delay before showing the loading component. Default: 200ms.
+    delay,
+    // A component to use if the load fails
+    errorComponent,
+    // The error component will be displayed if a timeout is
+    // provided and exceeded. Default: Infinity.
+    timeout,</span>
+  });
+};
+</code></pre></div><p>让我们分解一下上面的代码：
+我们创建一个 <strong>lazyLoadComponentIfVisible</strong> 函数，该函数接受以下参数：</p> <ul><li><strong>componentLoader</strong>：返回一个解析为组件定义的 Promise 的函数</li> <li><strong>loadingComponent</strong>：异步组件加载时使用的组件。</li> <li><strong>errorComponent</strong>：加载失败时使用的组件。</li> <li><strong>delay</strong>：显示加载组件前的延迟。默认值：200 毫秒。</li> <li><strong>timeout</strong>：如果提供了超时时间，则将显示错误组件。默认值：<strong>Infinity</strong>。</li></ul> <p>函数返回 <strong>defineAsyncComponent</strong>，其中包含在组件可见时异步加载组件的逻辑。
+主要逻辑发生在 <strong>defineAsyncComponent</strong> 内部的 <strong>loadingComponent</strong> 中：
+我们使用 <strong>defineComponent</strong> 创建一个新组件，该组件包含一个渲染函数，用于在传递给 <strong>lazyLoadComponentIfVisible</strong> 的 <strong>div</strong> 中渲染 <strong>loadingComponent</strong>。该渲染函数包含一个指向加载组件根元素的模板<strong>ref</strong>。
+在 <strong>onMounted</strong> 中，我们会检查 <strong>IntersectionObserver</strong> 是否受支持。如果不支持，我们将立即加载组件。否则，我们将创建一个 <strong>IntersectionObserver</strong>，用于观察已加载组件的根元素，以检测它何时变得可见。当组件变为可见时，我们会清理观察者并加载组件。
+现在，你可以使用该函数在组件可见时对其进行懒加载：</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>ts<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> Loading <span class="token keyword">from</span> <span class="token string">'./components/Loading.vue'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> lazyLoadComponentIfVisible <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./utils'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> LazyLoaded <span class="token operator">=</span> <span class="token function">lazyLoadComponentIfVisible</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token function-variable function">componentLoader</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">import</span><span class="token punctuation">(</span><span class="token string">'./components/HelloWorld.vue'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">loadingComponent</span><span class="token operator">:</span> Loading<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>LazyLoaded</span> <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div></div></section> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/vuePress-blog/handbook/VUE/Vue3利用hooks封装的图片懒加载.html" class="prev">
+          Vue3利用hooks封装的图片懒加载
+        </a></span> <!----></p></div> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-b57cc07c data-v-7dd95ae2><li class="level-3" data-v-b57cc07c><a href="/vuePress-blog/handbook/VUE/Vue%20%E7%BB%84%E4%BB%B6%E6%87%92%E5%8A%A0%E8%BD%BD-vue3.html#一-intersection-observer-api" class="sidebar-link reco-side-一-intersection-observer-api" data-v-b57cc07c>一.Intersection Observer API</a></li><li class="level-3" data-v-b57cc07c><a href="/vuePress-blog/handbook/VUE/Vue%20%E7%BB%84%E4%BB%B6%E6%87%92%E5%8A%A0%E8%BD%BD-vue3.html#二-异步组件" class="sidebar-link reco-side-二-异步组件" data-v-b57cc07c>二.异步组件</a></li><li class="level-3" data-v-b57cc07c><a href="/vuePress-blog/handbook/VUE/Vue%20%E7%BB%84%E4%BB%B6%E6%87%92%E5%8A%A0%E8%BD%BD-vue3.html#三-懒加载组件" class="sidebar-link reco-side-三-懒加载组件" data-v-b57cc07c>三.懒加载组件</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/vuePress-blog/assets/js/app.77a1e445.js" defer></script><script src="/vuePress-blog/assets/js/3.dfda982a.js" defer></script><script src="/vuePress-blog/assets/js/1.f474e8b5.js" defer></script><script src="/vuePress-blog/assets/js/17.ae6ef2d5.js" defer></script>
+  </body>
+</html>
